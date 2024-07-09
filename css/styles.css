@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* --- DESDE AQUÍ  */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headerTop {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 20px 30px;
+}
+
+.bangkok {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.darkAll {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.darkMode {
+    font-weight: 500;
+    font-size: 18px;
+}
+.dark-mode1 {
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgba(134, 132, 132, 0.562);
+}
+
+.dark-mode2 {
+width: 25px;
+height: 25px;
+border-radius: 20px;
+margin: 4px 0 0 4px;
+background-color: rgb(243, 220, 11);
+}
+
+.dark-mode2 img {
+    width: 20px;
+   margin: 2px;
+}
+
+/* --- HEADER TERMINADO  ---- */
+
+.imagen {
+    width: calc(100vw - 17px);
+    height: 60vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden; /* Esto asegura que la imagen no se salga del contenedor */
+}
+
+ .imagen img {
+    width: 100%;
+    height: auto;
+    margin: 0 30px;
+ }
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ article h1 {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 25px;
+ }
+
+ article p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+ }
